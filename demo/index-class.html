@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport"
+	content="initial-scale=1,maximum-scale=1,user-scalable=no,width=device-width,height=device-height">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<title>test</title>
+<link rel="stylesheet" type="text/css" href="css/record.css" />
+<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css" />
+<script type="text/javascript"  	src="js/jquery.min.js"></script>
+<script type="text/javascript"  	src="js/swiper-3.3.1.min.js"></script>
+<script type="text/javascript"  	src="js/calendar.js"></script>
+
+</head>
+<body >  
+	
+			<div class="calendar" id="test01"></div>
+			<div class="calendar" id="test02">	</div>		
+				<div class="calendar" id="test03">	</div>		
+				<div class="calendar" id="test04">	</div>		
+					
+
+</body>
+</html>
+<script>
+$(function(){
+	var opts = {
+		onClickDate:function(o){console.log("click",o)},
+		onRenderDate:function(o){console.log("render",o)},
+		container:$(".calendar"),
+		tprev:-3,
+		tnext:3
+		}
+	opts.container = $("#test01");
+	var calendar1 = new  Calendar(opts);
+	opts.container = $("#test02");
+	var calendar2 = new  Calendar(opts);
+	opts.container = $("#test03");
+	var calendar3 = new  Calendar(opts);
+	opts.container = $("#test04");
+	var calendar4 = new  Calendar(opts);
+})
+</script>

@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/*if iphone6*/
+@media screen and (min-width: 375px) {
+	.hint li {
+		float: left;
+		line-height: 18px;
+		font-size: 18px;
+	}
+}
+/*if iphone6ps*/
+@media screen and (min-width: 400px) {
+	.hint li {
+		font-size: 20px;
+		line-height: 22px;
+	}
+}
+
+.hint li p {
+	float: left;
+	font-size: 1rem;
+	line-height: 12px;
+	margin: 0 5px 0 0;
+}
+
+
+.hint_li {
+	padding: 12px 14px !important;
+}
+/*if width:360*/
+@media screen and (min-width: 360px) {
+	.hint_li {
+		padding: 12px 17px !important;
+	}
+}
+/*if iphone6*/
+@media screen and (min-width: 375px) {
+	.hint_li {
+		padding: 12px 17px !important;
+	}
+}
+/*if iphone6ps*/
+@media screen and (min-width: 400px) {
+	.hint_li {
+		padding: 12px 20px !important;
+	}
+}
+
+
+
+
+
+.calendar {
+	background-color: white;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+.calendar-header{
+	text-align:center;
+}
+table {
+	width: 90%;
+	margin: 0 auto;
+	font-family: "appfont1";
+}
+
+th {
+	color: #b2b2b2;
+	font-weight: 100;
+	font-size:14px;
+}
+
+td {
+	width: 14.2%;
+	padding-top: 3% !important;
+}
+
+td p {
+	width: 65%;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 50%;
+	height: 26px;
+	line-height: 27px;
+	color: #474747;
+}
+
+.today {
+	border: 2px solid #7ecbed;
+	background-color: #f69;
+	color: white;
+	line-height: 20px;
+	font-family: 微软雅黑;
+}
+
+/*IF width:360*/
+@media screen and (min-width:360px){
+
+	td p {
+	height:30px !important;
+	line-height:33px !important;
+	}
+	.today {
+	height: 30px !important;
+	line-height:28px !important; 
+	}
+}
+/*if iphone6*/
+@media screen and (min-width: 375px) {
+	td p {
+		height: 32px !important;
+		line-height: 33px !important;
+		font-size: 17px;
+	}
+	.today {
+	line-height:27px !important; 
+	}
+}
+/*if iphone6ps*/
+@media screen and (min-width: 400px) {
+	td p {
+		height: 35px !important;
+		line-height: 35px !important;
+		font-size: 19px;
+	}
+	.today {
+	height: 35px !important;
+	line-height:33px !important; 
+	}
+}
+
+.font_style1 {
+	background-color: #f1608d;
+	color: white;
+}
+
+.font_style2 {
+	background-color: #EF8FAD;
+	color: white;
+}
+
+.font_style3 {
+	background-color: #48A1FB;
+	color: white;
+}
+
+.font_style4 {
+	color: #b2b2b2;
+}
+
+.browse-merchandise {
+	position: relative;
+	width: 33% !important;
+	margin-left: 17px !important;
+	margin-right: 0 !important;
+}
+
+.swiper-container {
+	padding-bottom: 0 !important;
+}
+
+
+
+
+
+
+
