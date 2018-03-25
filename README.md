@@ -1,8 +1,8 @@
 # 1、首先上效果
 一个页面多个控件效果如下  
-![一个页面多个控件效果](https://github.com/winlion/calendar/blob/master/multilp.png)
+![一个页面多个控件效果](https://github.com/winlion/calendar/blob/master/multilp.png)  
 一个页面单个控件效果如下  
-![一个页面多个控件效果](https://github.com/winlion/calendar/blob/master/single.png)
+![一个页面多个控件效果](https://github.com/winlion/calendar/blob/master/single.png)  
 # 2、如何使用
 我们支持require形式，jquery插件形式和原生形式
 ## 2.1、在requirejs中使用
