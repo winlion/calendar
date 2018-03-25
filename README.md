@@ -4,7 +4,7 @@
 # 2、如何使用
 ## 2.1、在requirejs中使用
 ### 引进css
-`
+```html
 <link rel="stylesheet" type="text/css" href="css/record.css" />
 <link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css" />
 <style>
@@ -43,11 +43,11 @@
 	color: white;
 }
 </style>
-`
+```
 ### 在body中引进dom
-`
+```html
 <div class="calendar"></div>
-`
+```
 ### 引入js
 `
 <script type="text/javascript" data-main="js/main-lady" 	src="js/require.min.js"></script>
